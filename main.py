@@ -63,8 +63,6 @@ def tempNow(city):
     current_temperature_f = round(current_temperature * (9 / 5) - 459.67)
     print(f"The current temperature in {use.cConvert('red')}{city}{use.cConvert(None)} is {current_temperature_f}°F")
 
-
-
 if __name__ == "__main__":
     tempNow = tempNow(city)
     print()
